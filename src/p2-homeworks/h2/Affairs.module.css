@@ -1,0 +1,9 @@
+.affair {
+    display: flex;
+}
+.item {
+    margin: 10px;
+}
+.button:focus {
+    background-color: green;
+}
