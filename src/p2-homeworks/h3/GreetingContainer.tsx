@@ -1,10 +1,10 @@
-import React, {ChangeEvent,KeyboardEvent, useState} from 'react'
+import React, {ChangeEvent, KeyboardEvent, useState} from 'react'
 import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
     users: UserType[] // need to fix any
-    addUserCallback: (name:string) => void // need to fix any
+    addUserCallback: (name: string) => void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -28,7 +28,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     }
     const addUser = () => {
         addUserCallback(name)
-        alert(`Hello ${name} !`) // need to fix
+        alert(`Hello ${name}`) // need to fix
         setName('')
     }
 
