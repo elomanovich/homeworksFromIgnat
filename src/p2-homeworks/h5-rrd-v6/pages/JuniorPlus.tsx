@@ -1,12 +1,13 @@
 import React from 'react'
 
-function Header() {
+function JuniorPlus() {
     return (
         <div>
-            // add NavLinks
+
+            {/*<HW12/>*/}
 
         </div>
     )
 }
 
-export default Header
+export default JuniorPlus
